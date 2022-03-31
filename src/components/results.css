@@ -1,0 +1,11 @@
+.search-item {
+	user-select: none;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+
+.search-item:hover,
+.search-item:active {
+	background-color: rgb(73, 73, 250);
+	color: white;
+}

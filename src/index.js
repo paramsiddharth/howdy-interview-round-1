@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'jquery';
+import '@popperjs/core';
+import 'bootstrap';
 import { Provider } from 'react-redux';
+
+import 'bootstrap/dist/css/bootstrap.css';
 
 import './index.css';
 import App from './App';
